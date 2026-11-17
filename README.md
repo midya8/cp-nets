@@ -1,7 +1,7 @@
-# CPNetLab
+# Cp nets
 
 A dependency-free, bounded qualitative preference-network workbench. Complete
-binary CP-nets define legal single-variable improving flips. CPNetLab computes
+binary CP-nets define legal single-variable improving flips. Cp nets computes
 the complete outcome graph, every shortest positive-length reachability path,
 actual inconsistency cycles and the exact number of compatible strict rankings.
 For a consistent model, an incomparable pair gets two actual ranking witnesses,
@@ -98,7 +98,7 @@ Zero to four binary variables, complete strict local rankings, no self parents.
 No unknown conditional rows, local ties, constraints, uncertainty or learned
 preferences. No cardinal utility or recommendation-quality claim. For an
 inconsistent model there is no compatible strict ranking; reachability remains
-a graph fact, but CPNetLab deliberately makes no vacuous preference verdict.
+a graph fact, but Cp nets deliberately makes no vacuous preference verdict.
 We use the standard strict-total-extension consistency contract, not extended
 partial-model semantics. At most sixteen outcomes, exponential enumeration and
 subset counting. This is established CP-net theory and standard graph/counting
